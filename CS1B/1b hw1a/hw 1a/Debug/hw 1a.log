@@ -1,0 +1,4 @@
+﻿  CS 1B Template.cpp
+c:\users\roverdog\source\repos\hw 1a\hw 1a\cs 1b template.cpp(55): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+c:\users\roverdog\source\repos\hw 1a\hw 1a\cs 1b template.cpp(57): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  hw 1a.vcxproj -> C:\Users\roverdog\source\repos\hw 1a\Debug\hw 1a.exe

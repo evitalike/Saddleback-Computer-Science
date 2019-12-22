@@ -1,0 +1,31 @@
+PROGRAM OUTPUT:
+
+===================================================
+Program: Assignment 3 - Queues and Deques
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+This program demonstrates the enqueue and dequeue functions
+of a custom queue class that utilizes a circular array to
+store its data for Parts A and B, as well as the push and
+pop functions of a custom node based deque class for parts C and D.
+===================================================
+
+Part A: Data from the custom name and double queues:
+Mark Alan Jennifer Sonny Eric JoAnn Bill
+983.3 44.44 888.55 99.99 123.123 8.445
+
+Part B: Data from the custom name and double queues After 99.99 and Sonny are deleted:
+Eric JoAnn Bill
+123.123 8.445
+
+Part C: Data from the custom name and double deques:
+Bill  JoAnn  Eric  Sonny  Jennifer  Alan  Mark
+8.445  123.123  99.99  888.55  44.44  983.3
+
+Part D: Data from the custom name and double deques After 99.99 and Sonny are deleted:
+Jennifer  Alan  Mark
+8.445  123.123
+
+Press any key to continue . . .

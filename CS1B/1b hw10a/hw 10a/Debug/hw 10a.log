@@ -1,0 +1,6 @@
+﻿  main.cpp
+c:\users\roverdog\source\repos\hw 10a\hw 10a\main.cpp(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\roverdog\source\repos\hw 10a\hw 10a\algorithm.h(18): warning C4715: 'max<int>': not all control paths return a value
+c:\users\roverdog\source\repos\hw 10a\hw 10a\algorithm.h(18): warning C4715: 'max<char>': not all control paths return a value
+c:\users\roverdog\source\repos\hw 10a\hw 10a\algorithm.h(18): warning C4715: 'max<double>': not all control paths return a value
+  hw 10a.vcxproj -> C:\Users\roverdog\source\repos\hw 10a\Debug\hw 10a.exe

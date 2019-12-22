@@ -1,0 +1,111 @@
+// ===================================================
+// Program: Extra Credit - Skip Lists
+// ===================================================
+// Programmer: Aaron Geesink
+// Class: CS 1D - 5 PM class
+// ===================================================
+/* The purpose of this assignment is to demonstrate the use
+of randomly generated skip lists to generate a dictionary.
+the program makes use of a skip list with a 50% chance for
+a value to be inserted at any given level of the list, and
+can have up to five levels. */
+// ===================================================
+
+Inserting values and testing Random numbers:
+Key 18: Num random rolls: 1
+Key 41: Num random rolls: 1
+Key 22: Num random rolls: 1
+Key 44: Num random rolls: 5
+Key 58: Num random rolls: 4
+Key 32: Num random rolls: 0
+Key 49: Num random rolls: 3
+Key 31: Num random rolls: 0
+Key 17: Num random rolls: 0
+Key 72: Num random rolls: 0
+Key 41: Num random rolls: 1
+Key 19: Num random rolls: 0
+Key 60: Num random rolls: 0
+Key 35: Num random rolls: 1
+Key 103: Num random rolls: 1
+Key 11: Num random rolls: 0
+Key 18: Num random rolls: 0
+Key 22: Num random rolls: 0
+Key 49: Num random rolls: 0
+Key 42: Num random rolls: 0
+Key 49: Num random rolls: 0
+Key 99: Num random rolls: 0
+Key 29: Num random rolls: 3
+Key 88: Num random rolls: 0
+Key 41: Num random rolls: 0
+Key 62: Num random rolls: 0
+
+Dictionary contents:
+Level 0:
+Key: 17 --> Value: Orange
+Key: 18 --> Value: Del Mar
+Key: 18 --> Value: Laguna Niguel
+Key: 19 --> Value: Brea
+Key: 22 --> Value: Aliso Viejo
+Key: 22 --> Value: San Clemente
+Key: 29 --> Value: Dana Point
+Key: 31 --> Value: Los Angeles
+Key: 32 --> Value: San Diego
+Key: 35 --> Value: Tustin
+Key: 41 --> Value: San Clemente
+Key: 42 --> Value: Vista
+Key: 44 --> Value: Irvine
+Key: 49 --> Value: San Diego
+Key: 49 --> Value: Laguna Beach
+Key: 49 --> Value: Anaheim
+Key: 60 --> Value: Santa Ana
+Key: 62 --> Value: Laguna Hills
+Key: 88 --> Value: El Segundo
+Key: 99 --> Value: San Juan
+Key: 103 --> Value: Oceanside
+
+Level 1:
+Key: 19 --> Value: Brea
+Key: 29 --> Value: Dana Point
+Key: 31 --> Value: Los Angeles
+Key: 41 --> Value: San Clemente
+Key: 49 --> Value: San Diego
+Key: 60 --> Value: Santa Ana
+
+Level 2:
+Key: 31 --> Value: Los Angeles
+Key: 49 --> Value: San Diego
+Key: 60 --> Value: Santa Ana
+
+Level 3:
+Key: 31 --> Value: Los Angeles
+Key: 49 --> Value: San Diego
+Key: 60 --> Value: Santa Ana
+
+Level 4:
+Key: 49 --> Value: San Diego
+
+
+function tests:
+===Find function===
+The value for key 99 is San Juan
+
+===FindAll function===
+Finding all values with the key 22:
+22 Aliso Viejo
+22 San Clemente
+
+===size function===
+Number of items in list: 21
+
+===empty function===
+The list is not empty
+
+===Begin and End iterators===
+Here are the keys in the list:
+11 17 18 18 19 22 22 29 31 32 35 41 42 44 49 49 49 60 62 88 99 103
+
+===erase function===
+Here are the keys after erasing key 11:
+17 18 18 19 22 22 29 31 32 35 41 42 44 49 49 49 60 62 88 99 103
+
+Press any key to continue . . .

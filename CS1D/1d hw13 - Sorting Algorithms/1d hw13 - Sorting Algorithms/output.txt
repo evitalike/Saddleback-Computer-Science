@@ -1,0 +1,123 @@
+===================================================
+Program: Program: Assignment 13 - Sorting Algortithms
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+The purpose of this assignment is to analyze the
+number of executions necesarry fo the merge sort, heap sort
+and quicksort algorithms. The number of executions are counted and
+then displayed to the console for use in Big O analysis.
+Part 3 displays the use of a radix sort to sort 10 strings
+of characters in alphabetical order.
+===================================================
+
+
+=========== Part 1: Quicksort ===========
+Ordered Arrays before sorting:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+Already ordered - number of statements needed to sort:
+   Size(N)    First Pivot   Random Pivot  Middle Pivot
+      5000       12527497         121911          94346
+    10,000       50054997         288739         203671
+    50,000     1250274997        1821569        1213604
+
+Ordered Arrays after sorting:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+=======================
+
+Reverse Ordered Arrays before sorting:
+5000 4999 4998 4997 4996
+10000 9999 9998 9997 9996
+50000 49999 49998 49997 49996
+
+Reverse ordered - number of statements needed to sort:
+   Size(N)    First Pivot   Random Pivot  Middle Pivot
+      5000       18777497         143609         100505
+    10,000       75054997         319797         216472
+    50,000     1875274997        1616142        1258793
+
+Reverse Ordered Arrays after sorting:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+=======================
+
+Randomly Ordered Arrays before sorting:
+2733 3494 3991 2119 1907
+8205 4783 8313 5394 1204
+25888 7177 7543 24493 35299
+
+Randomly ordered - number of statements needed to sort:
+   Size(N)    First Pivot   Random Pivot  Middle Pivot
+      5000         116986         131126         122088
+    10,000         271558         266909         274873
+    50,000        1608076        1594129        1550997
+
+Randomly Ordered Arrays after sorting:
+1 2 3 4 5
+1 2 3 4 5
+1 2 3 4 5
+
+=========== Part 2: Heap/Merge Sort ===========
+Ordered Arrays before sorting:
+1 2 3 4 5
+1 2 3 4 5
+
+Already ordered - number of statements needed to sort:
+      Algorithm          50000         75000
+     Merge Sort        2170877        3362169
+      Heap Sort        2671447        4159001
+
+Ordered Arrays after sorting:
+1 2 3 4 5
+1 2 3 4 5
+
+=======================
+Reverse Ordered Arrays before sorting:
+50000 49999 49998 49997 49996
+75000 74999 74998 74997 74996
+
+Reverse ordered - number of statements needed to sort:
+      Algorithm          50000         75000
+     Merge Sort        2151437        3332465
+      Heap Sort        2387417        3740196
+
+Ordered Arrays after sorting:
+1 2 3 4 5
+1 2 3 4 5
+
+=======================
+Random Arrays before sorting:
+18163 6778 48517 24425 11708
+38161 12211 54419 806 54167
+
+Randomly ordered - number of statements needed to sort:
+      Algorithm          50000         75000
+     Merge Sort        2486943        3858988
+      Heap Sort        2532304        3949174
+
+Random Arrays after sorting:
+1 2 3 4 5
+1 2 3 4 5
+
+=========== Part 3: Radix sort ===========
+before sorting:
+acdes  asdsd  ksjtr  kerpt  absqa  zabaa  rkdsb  qqqqq  kdfaa  zedsd
+
+Pass 1: absqa zabaa kdfaa rkdsb asdsd zedsd qqqqq ksjtr acdes kerpt
+Pass 2: zabaa kdfaa acdes kerpt absqa qqqqq rkdsb asdsd zedsd ksjtr
+Pass 3: zabaa acdes rkdsb asdsd zedsd kdfaa ksjtr qqqqq kerpt absqa
+Pass 4: zabaa absqa acdes kdfaa zedsd kerpt rkdsb qqqqq asdsd ksjtr
+Pass 5: absqa acdes asdsd kdfaa kerpt ksjtr qqqqq rkdsb zabaa zedsd
+
+after sorting:
+absqa  acdes  asdsd  kdfaa  kerpt  ksjtr  qqqqq  rkdsb  zabaa  zedsd
+Press any key to continue . . .

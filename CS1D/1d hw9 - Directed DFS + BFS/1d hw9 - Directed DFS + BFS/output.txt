@@ -1,0 +1,225 @@
+===================================================
+Program: Assignment 9 - Directed DFS and BFS
+===================================================
+Programmer: Aaron Geesink and Faris Hijazi
+Class: CS 1D - 5:00 PM M W
+===================================================
+In this program, we will construct directed graphs of 12 cities. Part A performs a
+DFS on a directed graph using an adjacency list starting from Chicago,
+and part B performs a BFS on a directed graph using an adjacency matrix.
+Discovery, back, forward, and cross edges are labeled for each traversal,
+and the sum of the discovery edges is added up and displayed.
+Part C checks to see if the graph is strongly connected.
+===================================================
+
+=================== Part A =====================
+DFS Starting From Chicago
+
+ADJACENCY LIST:
+
+Node Chicago makes an edge with
+        Node Boston with weight = 983
+        Node Seattle with weight = 2097
+
+Node Seattle makes an edge with
+        Node San Francisco with weight = 807
+        Node Denver with weight = 1331
+
+Node Boston makes an edge with
+        Node New York with weight = 214
+
+Node Denver makes an edge with
+        Node Chicago with weight = 1003
+        Node San Francisco with weight = 1267
+
+Node Houston makes an edge with
+        Node Dallas with weight = 239
+        Node Atlanta with weight = 810
+
+Node Los Angeles makes an edge with
+        Node Denver with weight = 1015
+
+Node Kansas City makes an edge with
+        Node Chicago with weight = 533
+        Node Denver with weight = 599
+        Node Atlanta with weight = 864
+        Node New York with weight = 1260
+        Node Los Angeles with weight = 1663
+
+Node Atlanta makes an edge with
+        Node Miami with weight = 661
+
+Node Dallas makes an edge with
+        Node Kansas City with weight = 496
+        Node Atlanta with weight = 781
+        Node Los Angeles with weight = 1435
+
+Node Miami makes an edge with
+        Node Houston with weight = 1187
+
+Node San Francisco makes an edge with
+        Node Los Angeles with weight = 381
+
+Node New York makes an edge with
+        Node Chicago with weight = 787
+        Node Atlanta with weight = 888
+
+
+
+DFS TRAVERSAL:
+
+Chicago -> Boston (983)
+
+Boston -> New York (1197)
+
+New York -> Atlanta (2085)
+
+Atlanta -> Miami (2746)
+
+Miami -> Houston (3933)
+
+Houston -> Dallas (4172)
+
+Dallas -> Kansas City (4668)
+
+Kansas City -> Denver (5267)
+
+Denver -> San Francisco (6534)
+
+San Francisco -> Los Angeles (6915)
+
+Chicago -> Seattle (9012)
+
+DISCOVERY DISTANCE: 9012
+
+DISCOVERY EDGES:
+(Chicago -> Boston)
+(Boston -> New York)
+(New York -> Atlanta)
+(Atlanta -> Miami)
+(Miami -> Houston)
+(Houston -> Dallas)
+(Dallas -> Kansas City)
+(Kansas City -> Denver)
+(Denver -> San Francisco)
+(San Francisco -> Los Angeles)
+(Chicago -> Seattle)
+
+BACK EDGES:
+(New York -> Chicago)
+(Kansas City -> Chicago)
+(Denver -> Chicago)
+(Los Angeles -> Denver)
+(Kansas City -> Atlanta)
+(Kansas City -> New York)
+(Dallas -> Atlanta)
+(Houston -> Atlanta)
+
+FORWARD EDGES:
+(Kansas City -> Los Angeles)
+(Dallas -> Los Angeles)
+
+CROSS EDGES:
+(Seattle -> San Francisco)
+(Seattle -> Denver)
+
+
+=================== Part B ===================
+Here is the order of the Breadth First Traversal, starting from Chicago.
+Discovery: Chicago --> Boston (983)
+Discovery: Chicago --> Seattle (2097)
+Discovery: Boston --> New York (214)
+Discovery: Seattle --> San Francisco (807)
+Discovery: Seattle --> Denver (1331)
+Back Edge: New York --> Chicago (787)
+Discovery: New York --> Atlanta (888)
+Discovery: San Francisco --> Los Angeles (381)
+Back Edge: Denver --> Chicago (1003)
+Cross Edge: Denver --> San Francisco (1267)
+Discovery: Atlanta --> Miami (661)
+Cross Edge: Los Angeles --> Denver (1015)
+Discovery: Miami --> Houston (1187)
+Discovery: Houston --> Dallas (239)
+Back Edge: Houston --> Atlanta (810)
+Discovery: Dallas --> Kansas City (496)
+Back Edge: Dallas --> Atlanta (781)
+Cross Edge: Dallas --> Los Angeles (1435)
+Back Edge: Kansas City --> Chicago (533)
+Cross Edge: Kansas City --> Denver (599)
+Back Edge: Kansas City --> New York (1260)
+Cross Edge: Kansas City --> Los Angeles (1663)
+Back Edge: Kansas City --> Atlanta (864)
+
+Total distance traveled over discovery edges: 9284
+
+Here is the adjacency matrix:
+    Chic Bost Seat Dall Kans San  Los  Denv Hous Miam Atla New
+Chic  0    1    1    0    0    0    0    0    0    0    0    0
+Bost  0    0    0    0    0    0    0    0    0    0    0    1
+Seat  0    0    0    0    0    1    0    1    0    0    0    0
+Dall  0    0    0    0    1    0    1    0    0    0    1    0
+Kans  1    0    0    0    0    0    1    1    0    0    1    1
+San   0    0    0    0    0    0    1    0    0    0    0    0
+Los   0    0    0    0    0    0    0    1    0    0    0    0
+Denv  1    0    0    0    0    1    0    0    0    0    0    0
+Hous  0    0    0    1    0    0    0    0    0    0    1    0
+Miam  0    0    0    0    0    0    0    0    1    0    0    0
+Atla  0    0    0    0    0    0    0    0    0    1    0    0
+New   1    0    0    0    0    0    0    0    0    0    1    0
+
+
+=================== Part C ===================
+Checking if the graph is strongly connected:
+
+Node Chicago makes an edge with
+        Node Denver with weight = 1003
+        Node Kansas City with weight = 533
+        Node New York with weight = 787
+
+Node Seattle makes an edge with
+        Node Chicago with weight = 2097
+
+Node Boston makes an edge with
+        Node Chicago with weight = 983
+
+Node Denver makes an edge with
+        Node Seattle with weight = 1331
+        Node Los Angeles with weight = 1015
+        Node Kansas City with weight = 599
+
+Node Houston makes an edge with
+        Node Miami with weight = 1187
+
+Node Los Angeles makes an edge with
+        Node Kansas City with weight = 1663
+        Node Dallas with weight = 1435
+        Node San Francisco with weight = 381
+
+Node Kansas City makes an edge with
+        Node Dallas with weight = 496
+
+Node Atlanta makes an edge with
+        Node Houston with weight = 810
+        Node Kansas City with weight = 864
+        Node Dallas with weight = 781
+        Node New York with weight = 888
+
+Node Dallas makes an edge with
+        Node Houston with weight = 239
+
+Node Miami makes an edge with
+        Node Atlanta with weight = 661
+
+Node San Francisco makes an edge with
+        Node Seattle with weight = 807
+        Node Denver with weight = 1267
+
+Node New York makes an edge with
+        Node Boston with weight = 214
+        Node Kansas City with weight = 1260
+
+
+The graph is strongly connected, as all nodes can
+be accessed no matter which node the traversal starts on.
+
+Press any key to continue . . .

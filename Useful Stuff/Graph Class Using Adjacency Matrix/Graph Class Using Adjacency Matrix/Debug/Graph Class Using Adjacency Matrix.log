@@ -1,0 +1,18 @@
+﻿  main.cpp
+c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\matrixgraph.h(357): warning C4018: '<': signed/unsigned mismatch
+  c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\matrixgraph.h(335): note: while compiling class template member function 'void MatrixGraph<std::string>::aStar(T,T)'
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\main.cpp(70): note: see reference to function template instantiation 'void MatrixGraph<std::string>::aStar(T,T)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\main.cpp(33): note: see reference to class template instantiation 'MatrixGraph<std::string>' being compiled
+c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\matrixgraph.h(363): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\matrixgraph.h(365): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\matrixgraph.h(375): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\graph class using adjacency matrix\graph class using adjacency matrix\matrixgraph.h(399): warning C4018: '<': signed/unsigned mismatch
+  Graph Class Using Adjacency Matrix.vcxproj -> C:\Users\roverdog\source\repos\Graph Class Using Adjacency Matrix\Debug\Graph Class Using Adjacency Matrix.exe

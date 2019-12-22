@@ -1,0 +1,4 @@
+﻿  main.cpp
+c:\users\roverdog\source\repos\hw 10c\hw 10c\main.cpp(22): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\hw 10c\hw 10c\main.cpp(36): warning C4018: '<': signed/unsigned mismatch
+  hw 10c.vcxproj -> C:\Users\roverdog\source\repos\hw 10c\Debug\hw 10c.exe

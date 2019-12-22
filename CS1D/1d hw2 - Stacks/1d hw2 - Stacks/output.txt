@@ -1,0 +1,40 @@
+PROGRAM OUTPUT:
+
+===================================================
+Program: Assignment 2 - Stacks
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+This program demonstrates use of the STL stack class for Parts A and B
+as well as a custom singly linked list stack class for parts C and D.
+Part E demonstrates more usage of the custom Linked List class through an
+algorithm that checks for balanced parentheses in a math expression.
+===================================================
+
+Part A: Data from the STL name and float stacks:
+Bill  JoAnn  Eric  Sonny  Jennifer  Alan  Mark
+8.445  123.123  99.99  888.55  44.44  983.3
+
+Part B: Data from the STL name and float stacks After 99.99 and Sonny are deleted:
+Jennifer  Alan  Mark
+888.55  44.44  983.3
+
+Part C: Data from the custom name and float stacks:
+Bill  JoAnn  Eric  Sonny  Jennifer  Alan  Mark
+8.445  123.123  99.99  888.55  44.44  983.3
+
+Part D: Data from the custom name and float stacks After 99.99 and Sonny are deleted:
+Jennifer  Alan  Mark
+888.55  44.44  983.3
+
+Part E: Parentheses Algorithm using custom stack:
+{2x-8)(12x+6) : Not Balanced
+{{8x+5) - 5x[9x+3]}) : Not Balanced
+{2x+5}(6x+4) : Balanced
+(((4x+8) - x[4x+3]))) : Not Balanced
+[(5x - 5) - 4x[6x + 2]] : Balanced
+{(8x+5) - 6x[9x+3]] : Not Balanced
+(12x + 6)(2x - 4) : Balanced
+
+Press any key to continue . . .

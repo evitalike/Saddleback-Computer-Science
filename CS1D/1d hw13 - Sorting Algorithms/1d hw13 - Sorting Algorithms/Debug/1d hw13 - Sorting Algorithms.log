@@ -1,0 +1,5 @@
+﻿  hw13.cpp
+c:\users\roverdog\source\repos\1d hw13 - sorting algorithms\1d hw13 - sorting algorithms\quicksort.h(74): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\roverdog\source\repos\1d hw13 - sorting algorithms\1d hw13 - sorting algorithms\radixsort.h(70): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw13 - sorting algorithms\1d hw13 - sorting algorithms\hw13.cpp(265): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  1d hw13 - Sorting Algorithms.vcxproj -> C:\Users\roverdog\source\repos\1d hw13 - Sorting Algorithms\Debug\1d hw13 - Sorting Algorithms.exe

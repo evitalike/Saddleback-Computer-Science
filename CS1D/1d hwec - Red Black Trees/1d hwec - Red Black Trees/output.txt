@@ -1,0 +1,20 @@
+===================================================
+Program: hwec - Red Black Trees
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+The purpose of this program is to create and display a red-black
+tree like the one in the extra credit we did in class
+===================================================
+
+Here is the tree after inserting the values:
+
+    16
+15
+        7
+    [5]
+        4
+            [3]
+
+Press any key to continue . . .

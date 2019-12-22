@@ -1,0 +1,8 @@
+﻿  hw12.cpp
+c:\users\roverdog\source\repos\1c hw12\1c hw12\arrayqueue.h(118): warning C4715: 'ArrayQueue<int>::dequeue': not all control paths return a value
+c:\users\roverdog\source\repos\1c hw12\1c hw12\arrayqueue.h(114): warning C4172: returning address of local variable or temporary: temp
+c:\users\roverdog\source\repos\1c hw12\1c hw12\arrayqueue.h(118): warning C4715: 'ArrayQueue<double>::dequeue': not all control paths return a value
+c:\users\roverdog\source\repos\1c hw12\1c hw12\arrayqueue.h(114): warning C4172: returning address of local variable or temporary: temp
+c:\users\roverdog\source\repos\1c hw12\1c hw12\arrayqueue.h(118): warning C4715: 'ArrayQueue<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::dequeue': not all control paths return a value
+c:\users\roverdog\source\repos\1c hw12\1c hw12\arrayqueue.h(114): warning C4172: returning address of local variable or temporary: temp
+  1c hw12.vcxproj -> C:\Users\roverdog\source\repos\1c hw12\Debug\1c hw12.exe

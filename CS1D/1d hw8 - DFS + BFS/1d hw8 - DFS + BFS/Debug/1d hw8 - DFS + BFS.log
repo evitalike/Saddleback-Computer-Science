@@ -1,0 +1,25 @@
+﻿  hw08.cpp
+c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\listgraph.h(69): warning C4018: '<': signed/unsigned mismatch
+  c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\listgraph.h(52): note: while compiling class template member function 'void ListGraph<std::string>::DFSUtil(T)'
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\listgraph.h(163): note: see reference to function template instantiation 'void ListGraph<std::string>::DFSUtil(T)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\listgraph.h(113): note: while compiling class template member function 'ListGraph<std::string>::ListGraph(T *,int)'
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\hw08.cpp(37): note: see reference to function template instantiation 'ListGraph<std::string>::ListGraph(T *,int)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\hw08.cpp(37): note: see reference to class template instantiation 'ListGraph<std::string>' being compiled
+c:\users\roverdog\source\repos\1d hw8 - dfs + bfs\1d hw8 - dfs + bfs\listgraph.h(74): warning C4018: '<': signed/unsigned mismatch
+  1d hw8 - DFS + BFS.vcxproj -> C:\Users\roverdog\source\repos\1d hw8 - DFS + BFS\Debug\1d hw8 - DFS + BFS.exe

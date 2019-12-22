@@ -1,0 +1,9 @@
+﻿  Lab03.cpp
+c:\users\roverdog\source\repos\lab 3 - prefixaverages\lab 3 - prefixaverages\lab03.cpp(23): warning C4244: 'argument': conversion from 'int' to '_Ty', possible loss of data
+          with
+          [
+              _Ty=float
+          ]
+c:\users\roverdog\source\repos\lab 3 - prefixaverages\lab 3 - prefixaverages\lab03.cpp(72): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\lab 3 - prefixaverages\lab 3 - prefixaverages\lab03.cpp(88): warning C4018: '<': signed/unsigned mismatch
+  Lab 3 - PrefixAverages.vcxproj -> C:\Users\roverdog\source\repos\Lab 3 - PrefixAverages\Debug\Lab 3 - PrefixAverages.exe

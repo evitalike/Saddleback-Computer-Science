@@ -1,0 +1,35 @@
+===================================================
+Program: Assignment 5 - Priority Queues
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+The Purpose of this Assignment is to demonstrate
+The use of a priority queue to simulate treating
+patients in an afternoon at a hospital. Part 1 uses a
+custom heap based priority queue to handle the patients,
+and part two uses the STL priority queue with a comparator for patients.
+===================================================
+
+============== Part 1: Custom Priority Queue ===========
+ Tom Temperature - Start: 12:00:00 PM - End: 12:25:00 PM
+   Alice Ailment - Start: 12:25:00 PM - End: 12:50:00 PM
+    Bob Bleeding - Start: 12:50:00 PM - End: 01:15:00 PM
+    Sam Sneezing - Start: 01:34:00 PM - End: 01:59:00 PM
+  Cathy Coughing - Start: 01:15:00 PM - End: 02:05:00 PM
+      Sid Sickly - Start: 02:12:00 PM - End: 02:37:00 PM
+      Paula Pain - Start: 02:05:00 PM - End: 02:55:00 PM
+Frank Feelingbad - Start: 02:55:00 PM - End: 03:20:00 PM
+       Irene Ill - Start: 03:20:00 PM - End: 03:45:00 PM
+
+============== Part 2: STL Priority Queue ==============
+ Tom Temperature - Start: 12:00:00 PM - End: 12:25:00 PM
+   Alice Ailment - Start: 12:25:00 PM - End: 12:50:00 PM
+    Bob Bleeding - Start: 12:50:00 PM - End: 01:15:00 PM
+    Sam Sneezing - Start: 01:34:00 PM - End: 01:59:00 PM
+  Cathy Coughing - Start: 01:15:00 PM - End: 02:05:00 PM
+      Sid Sickly - Start: 02:12:00 PM - End: 02:37:00 PM
+      Paula Pain - Start: 02:05:00 PM - End: 02:55:00 PM
+Frank Feelingbad - Start: 02:55:00 PM - End: 03:20:00 PM
+       Irene Ill - Start: 03:20:00 PM - End: 03:45:00 PM
+Press any key to continue . . .

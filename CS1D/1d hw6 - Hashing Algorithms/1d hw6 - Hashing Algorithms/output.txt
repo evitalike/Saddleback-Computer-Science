@@ -1,0 +1,78 @@
+===================================================
+Program: Assignment 6 - Hashing Algorithms
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+This assignment demonstrates the use of hashing algorithms
+that assign elements to a map depending on an integer key.
+Part 1 utilizes a double hashing algorithm to assign elements,
+while part 2 uses a quadratic hashing algorithm.
+===================================================
+
+============ Part 1: Double Hash Map ============
+how to read: index ===> key, city
+
+0 ===> 29, Dana Point
+1 ===> 88, El Segundo
+2 ===> 31, Los Angeles
+3 ===> 32, San Diego
+4 ===> 62, Laguna Hills
+5
+6 ===> 35, Tustin
+7 ===> 60, Santa Ana
+8
+9
+10
+11 ===> 11, La Jolla
+12 ===> 99, San Juan
+13 ===> 42, Vista
+14
+15 ===> 44, Irvine
+16 ===> 103, Oceanside
+17 ===> 17, Orange
+18 ===> 18, Del Mar
+19 ===> 19, Brea
+20 ===> 49, San Diego
+21
+22 ===> 22, Aliso Viejo
+23 ===> 41, San Clemente
+24
+25
+26
+27
+28
+
+=========== Part 2: Quadratic Hash Map ===========
+how to read: index ===> key, city
+
+0 ===> 29, Dana Point
+1 ===> 88, El Segundo
+2 ===> 31, Los Angeles
+3 ===> 32, San Diego
+4 ===> 62, Laguna Hills
+5
+6 ===> 60, Santa Ana
+7 ===> 35, Tustin
+8
+9
+10
+11 ===> 11, La Jolla
+12 ===> 99, San Juan
+13 ===> 42, Vista
+14
+15 ===> 44, Irvine
+16 ===> 103, Oceanside
+17 ===> 17, Orange
+18 ===> 18, Del Mar
+19 ===> 19, Brea
+20 ===> 49, San Diego
+21 ===> 41, San Clemente
+22 ===> 22, Aliso Viejo
+23
+24
+25
+26
+27
+28
+Press any key to continue . . .

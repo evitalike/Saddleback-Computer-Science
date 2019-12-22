@@ -1,0 +1,6 @@
+﻿  hw03.cpp
+c:\users\roverdog\source\repos\1d hw3 - queues +deques\1d hw3 - queues +deques\arrayqueue.h(116): warning C4715: 'ArrayQueue<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::dequeue': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw3 - queues +deques\1d hw3 - queues +deques\arrayqueue.h(116): warning C4715: 'ArrayQueue<double>::dequeue': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw3 - queues +deques\1d hw3 - queues +deques\arrayqueue.h(112): warning C4172: returning address of local variable or temporary: temp
+c:\users\roverdog\source\repos\1d hw3 - queues +deques\1d hw3 - queues +deques\arrayqueue.h(112): warning C4172: returning address of local variable or temporary: temp
+  1D hw3 - Queues +Deques.vcxproj -> C:\Users\roverdog\source\repos\1D hw3 - Queues +Deques\Debug\1D hw3 - Queues +Deques.exe

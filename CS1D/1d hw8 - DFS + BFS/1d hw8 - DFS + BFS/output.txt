@@ -1,0 +1,65 @@
+===================================================
+Program: DFS and BFS (Assignment 8)
+===================================================
+Programmer: Aaron Geesink and Garrett Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+In this program, we will construct a graph of 12 cities. Part A performs a
+DFS on a graph using an adjacency list starting from Chicago,
+and part B performs a BFS on a graph using an adjacency matrix.
+the total amount travelled along discovery edges, back edges, or cross edges
+is added up and displayed as well.
+===================================================
+
+=================== Part A =====================
+DFS Starting From Chicago
+
+Here is the adjacency list and the order the cities are visited:
+Chicago -> Seattle -> New York -> Boston -> Denver -> Kansas City
+Seattle -> Chicago -> San Francisco -> Denver
+San Francisco -> Seattle -> Los Angeles -> Denver
+Los Angeles -> San Francisco -> Denver -> Kansas City -> Dallas
+Denver -> Los Angeles -> Kansas City -> Seattle -> San Francisco -> Chicago
+Kansas City -> Denver -> New York -> Los Angeles -> Dallas -> Atlanta -> Chicago
+New York -> Kansas City -> Boston -> Chicago -> Atlanta
+Boston -> New York -> Chicago
+Atlanta -> Miami -> Dallas -> Houston -> Kansas City -> New York
+Miami -> Atlanta -> Houston
+Houston -> Miami -> Dallas -> Atlanta
+Dallas -> Houston -> Los Angeles -> Kansas City -> Atlanta
+
+Discovery edge distance: 9348
+Back edge distance: 33254
+
+=================== Part B ===================
+Here is the order of the Breadth First Traversal, starting from Chicago.
+Chicago
+Seattle
+Denver
+Kansas City
+New York
+Boston
+San Francisco
+Los Angeles
+Dallas
+Atlanta
+Houston
+Miami
+
+Total distance traveled over discovery edges: 11175
+Total distance traveled over cross edges: 31427
+
+Here is the adjacency matrix:
+    Chic Seat San  Los  Denv Kans Dall Hous Miam Atla New  Bost
+Chic  0    1    0    0    1    1    0    0    0    0    1    1
+Seat  1    0    1    0    1    0    0    0    0    0    0    0
+San   0    1    0    1    1    0    0    0    0    0    0    0
+Los   0    0    1    0    1    1    1    0    0    0    0    0
+Denv  1    1    1    1    0    1    0    0    0    0    0    0
+Kans  1    0    0    1    1    0    1    0    0    1    1    0
+Dall  0    0    0    1    0    1    0    1    0    1    0    0
+Hous  0    0    0    0    0    0    1    0    1    1    0    0
+Miam  0    0    0    0    0    0    0    1    0    1    0    0
+Atla  0    0    0    0    0    1    1    1    1    0    1    0
+New   1    0    0    0    0    1    0    0    0    1    0    1
+Bost  1    0    0    0    0    0    0    0    0    0    1    0

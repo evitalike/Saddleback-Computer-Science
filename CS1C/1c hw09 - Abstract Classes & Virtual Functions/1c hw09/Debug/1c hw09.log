@@ -1,0 +1,9 @@
+﻿  Rectangle.cpp
+c:\users\roverdog\source\repos\1c hw09\1c hw09\rectangle.cpp(8): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\users\roverdog\source\repos\1c hw09\1c hw09\rectangle.cpp(13): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+  Triangle.cpp
+c:\users\roverdog\source\repos\1c hw09\1c hw09\triangle.cpp(8): warning C4244: 'return': conversion from 'int' to 'float', possible loss of data
+c:\users\roverdog\source\repos\1c hw09\1c hw09\triangle.cpp(14): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  hw09.cpp
+  Generating Code...
+  1c hw09.vcxproj -> C:\Users\roverdog\source\repos\1c hw09\Debug\1c hw09.exe

@@ -1,0 +1,4 @@
+﻿  hw05.cpp
+c:\users\roverdog\source\repos\1c hw05\1c hw05\hw05.cpp(61): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+c:\users\roverdog\source\repos\1c hw05\1c hw05\hw05.cpp(98): warning C4018: '<': signed/unsigned mismatch
+  1c hw05.vcxproj -> C:\Users\roverdog\source\repos\1c hw05\Debug\1c hw05.exe

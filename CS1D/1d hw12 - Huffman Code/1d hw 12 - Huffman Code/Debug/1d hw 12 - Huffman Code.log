@@ -1,0 +1,7 @@
+﻿  hw12.cpp
+c:\users\roverdog\source\repos\1d hw 12 - huffman code\1d hw 12 - huffman code\minheap.h(93): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw 12 - huffman code\1d hw 12 - huffman code\minheap.h(105): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw 12 - huffman code\1d hw 12 - huffman code\hw12.cpp(36): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw 12 - huffman code\1d hw 12 - huffman code\hw12.cpp(39): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw 12 - huffman code\1d hw 12 - huffman code\hw12.cpp(59): warning C4018: '<': signed/unsigned mismatch
+  1d hw 12 - Huffman Code.vcxproj -> C:\Users\roverdog\source\repos\1d hw 12 - Huffman Code\Debug\1d hw 12 - Huffman Code.exe

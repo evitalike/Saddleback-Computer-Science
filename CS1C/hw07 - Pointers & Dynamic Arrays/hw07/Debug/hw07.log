@@ -1,0 +1,7 @@
+﻿  hw07.cpp
+c:\users\roverdog\source\repos\hw07\hw07\hw07.cpp(22): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\roverdog\source\repos\hw07\hw07\hw07.cpp(23): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\roverdog\source\repos\hw07\hw07\hw07.cpp(24): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\roverdog\source\repos\hw07\hw07\hw07.cpp(25): warning C4305: 'argument': truncation from 'double' to 'float'
+c:\users\roverdog\source\repos\hw07\hw07\hw07.cpp(26): warning C4305: 'argument': truncation from 'double' to 'float'
+  hw07.vcxproj -> C:\Users\roverdog\source\repos\hw07\Debug\hw07.exe

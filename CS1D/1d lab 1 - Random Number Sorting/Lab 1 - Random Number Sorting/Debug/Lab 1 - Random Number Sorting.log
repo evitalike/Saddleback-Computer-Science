@@ -1,0 +1,3 @@
+﻿  CS 1C Template.cpp
+c:\users\roverdog\source\repos\lab 1 - random number sorting\lab 1 - random number sorting\cs 1c template.cpp(41): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Lab 1 - Random Number Sorting.vcxproj -> C:\Users\roverdog\source\repos\Lab 1 - Random Number Sorting\Debug\Lab 1 - Random Number Sorting.exe

@@ -1,0 +1,18 @@
+﻿  1d hw10.cpp
+c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\matrixgraph.h(243): warning C4018: '<': signed/unsigned mismatch
+  c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\matrixgraph.h(221): note: while compiling class template member function 'void MatrixGraph<std::string>::aStar(T,T)'
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\1d hw10.cpp(68): note: see reference to function template instantiation 'void MatrixGraph<std::string>::aStar(T,T)' being compiled
+          with
+          [
+              T=std::string
+          ]
+  c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\1d hw10.cpp(33): note: see reference to class template instantiation 'MatrixGraph<std::string>' being compiled
+c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\matrixgraph.h(249): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\matrixgraph.h(251): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\matrixgraph.h(261): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw10 - a-star + mst\1d hw10 - a-star + mst\matrixgraph.h(285): warning C4018: '<': signed/unsigned mismatch
+  1d hw10 - A-Star + MST.vcxproj -> C:\Users\roverdog\source\repos\1d hw10 - A-Star + MST\Debug\1d hw10 - A-Star + MST.exe

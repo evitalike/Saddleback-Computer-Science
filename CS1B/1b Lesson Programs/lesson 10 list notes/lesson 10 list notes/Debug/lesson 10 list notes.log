@@ -1,0 +1,24 @@
+﻿  main.cpp
+c:\users\roverdog\source\repos\lesson 10 list notes\lesson 10 list notes\main.cpp(35): error C2440: 'initializing': cannot convert from 'std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>' to 'std::reverse_iterator<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>'
+          with
+          [
+              _Ty=int
+          ]
+  c:\users\roverdog\source\repos\lesson 10 list notes\lesson 10 list notes\main.cpp(35): note: No user-defined-conversion operator available that can perform this conversion, or the operator cannot be called
+c:\users\roverdog\source\repos\lesson 10 list notes\lesson 10 list notes\main.cpp(35): error C2678: binary '!=': no operator found which takes a left-hand operand of type 'std::reverse_iterator<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>' (or there is no acceptable conversion)
+          with
+          [
+              _Ty=int
+          ]
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(306): note: could be 'bool std::operator !=(const std::error_condition &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(301): note: or       'bool std::operator !=(const std::error_condition &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(296): note: or       'bool std::operator !=(const std::error_code &,const std::error_condition &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\system_error(291): note: or       'bool std::operator !=(const std::error_code &,const std::error_code &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(346): note: or       'bool std::operator !=(const std::exception_ptr &,std::nullptr_t) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(341): note: or       'bool std::operator !=(std::nullptr_t,const std::exception_ptr &) noexcept'
+  c:\program files (x86)\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\exception(336): note: or       'bool std::operator !=(const std::exception_ptr &,const std::exception_ptr &) noexcept'
+  c:\users\roverdog\source\repos\lesson 10 list notes\lesson 10 list notes\main.cpp(35): note: while trying to match the argument list '(std::reverse_iterator<std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>>, std::_List_iterator<std::_List_val<std::_List_simple_types<_Ty>>>)'
+          with
+          [
+              _Ty=int
+          ]

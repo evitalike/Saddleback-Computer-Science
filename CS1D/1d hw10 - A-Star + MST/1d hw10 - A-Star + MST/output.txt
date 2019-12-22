@@ -1,0 +1,84 @@
+===================================================
+Program: Assignment 10 - A-Star Pathfinding and MST
+===================================================
+Programmer: Aaron Geesink and Ali Parva
+Class: CS 1D - 5:00 PM M W
+===================================================
+This Program demonstrates the use of and A* pathfinding algorithm starting from Atlanta
+and a Minimum Spanning Tree Diagram of a Adjacency Matrix graph of cities.
+The edges on the graph are bidirectional, and the sum of the distance
+traversed is displayed for the edges traversed in each algorithm.
+===================================================
+
+Here is the adjacency matrix:
+    Chi Bos Sea Dal Kan San Los Den Hou Mia Atl New
+Chi  0   1   1   0   1   0   0   1   0   0   0   1
+Bos  1   0   0   0   0   0   0   0   0   0   0   1
+Sea  1   0   0   0   0   1   0   1   0   0   0   0
+Dal  0   0   0   0   1   0   1   0   1   0   1   0
+Kan  1   0   0   1   0   0   1   1   0   0   1   1
+San  0   0   1   0   0   0   1   1   0   0   0   0
+Los  0   0   0   1   1   1   0   1   0   0   0   0
+Den  1   0   1   0   1   1   1   0   0   0   0   0
+Hou  0   0   0   1   0   0   0   0   0   1   1   0
+Mia  0   0   0   0   0   0   0   0   1   0   1   0
+Atl  0   0   0   1   1   0   0   0   1   1   0   1
+New  1   1   0   0   1   0   0   0   0   0   1   0
+
+=================== Part A ===================
+Here are the A* traversals from Atlanta to every other city, including distance of each path:
+
+Atlanta --> Chicago:
+        Atlanta --> Kansas City (864) --> Chicago (533) = 1397
+
+Atlanta --> Boston:
+        Atlanta --> New York (888) --> Boston (214) = 1102
+
+Atlanta --> Seattle:
+        Atlanta --> Kansas City (864) --> Denver (599) --> Seattle (1331) = 2794
+
+Atlanta --> Dallas:
+        Atlanta --> Dallas (781) = 781
+
+Atlanta --> Kansas City:
+        Atlanta --> Kansas City (864) = 864
+
+Atlanta --> San Francisco:
+        Atlanta --> Dallas (781) --> Los Angeles (1435) --> San Francisco (381) = 2597
+
+Atlanta --> Los Angeles:
+        Atlanta --> Dallas (781) --> Los Angeles (1435) = 2216
+
+Atlanta --> Denver:
+        Atlanta --> Kansas City (864) --> Denver (599) = 1463
+
+Atlanta --> Houston:
+        Atlanta --> Houston (810) = 810
+
+Atlanta --> Miami:
+        Atlanta --> Miami (661) = 661
+
+Atlanta --> Atlanta:
+        Atlanta (0) = 0
+
+Atlanta --> New York:
+        Atlanta --> New York (888) = 888
+
+
+=================== Part B ===================
+Here are the edges of the MST Traversal:
+
+Boston -- New York: 214
+Houston -- Dallas: 239
+San Francisco -- Los Angeles: 381
+Dallas -- Kansas City: 496
+Kansas City -- Chicago: 533
+Kansas City -- Denver: 599
+Atlanta -- Miami: 661
+Dallas -- Atlanta: 781
+New York -- Chicago: 787
+Seattle -- San Francisco: 807
+Los Angeles -- Denver: 1015
+Total Distance: 6513
+
+Press any key to continue . . .

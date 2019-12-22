@@ -1,0 +1,9 @@
+﻿  hw02.cpp
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\hw02.cpp(148): warning C4018: '<': signed/unsigned mismatch
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\linkedliststack.h(58): warning C4715: 'LinkedListStack<char>::pop': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\linkedliststack.h(67): warning C4715: 'LinkedListStack<char>::topElem': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\linkedliststack.h(58): warning C4715: 'LinkedListStack<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::pop': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\linkedliststack.h(58): warning C4715: 'LinkedListStack<double>::pop': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\linkedliststack.h(67): warning C4715: 'LinkedListStack<std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::topElem': not all control paths return a value
+c:\users\roverdog\source\repos\1d hw2 - stacks\1d hw2 - stacks\linkedliststack.h(67): warning C4715: 'LinkedListStack<double>::topElem': not all control paths return a value
+  1d hw2 - Stacks.vcxproj -> C:\Users\roverdog\source\repos\1d hw2 - Stacks\Debug\1d hw2 - Stacks.exe

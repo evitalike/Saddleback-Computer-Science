@@ -1,0 +1,47 @@
+Program Output:
+
+===================================================
+Program: Assignment 4 - Binary Tree
+===================================================
+Programmer: Aaron Geesink
+Class: CS 1D - 5:00 PM M W
+===================================================
+The purpose of this program is to create a binary
+tree with 19 elements, and then display the
+elements in the tree using the 4 methods of traversal.
+The tree is then displayed graphically.
+===================================================
+
+Preorder traversal:
+19,13,12,7,18,888,109,55,33,24,25,28,44,49,89,88,59,118,1001,
+
+Inorder traversal:
+7,12,13,18,19,24,25,28,33,44,49,55,59,88,89,109,118,888,1001,
+
+Postorder traversal:
+7,12,18,13,28,25,24,49,44,33,59,88,89,55,118,109,1001,888,19,
+
+Breadth First traversal:
+19 13 888 12 18 109 1001 7 55 118 33 89 24 44 88 25 49 59 28
+
+Here is the tree:
+„¤„Ÿ„Ÿ 19
+    „¥„Ÿ„Ÿ 888
+    „    „¥„Ÿ„Ÿ 1001
+    „    „¤„Ÿ„Ÿ 109
+    „        „¥„Ÿ„Ÿ 118
+    „        „¤„Ÿ„Ÿ 55
+    „            „¥„Ÿ„Ÿ 89
+    „            „    „¤„Ÿ„Ÿ 88
+    „            „        „¤„Ÿ„Ÿ 59
+    „            „¤„Ÿ„Ÿ 33
+    „                „¥„Ÿ„Ÿ 44
+    „                „    „¤„Ÿ„Ÿ 49
+    „                „¤„Ÿ„Ÿ 24
+    „                    „¥„Ÿ„Ÿ 25
+    „                    „    „¥„Ÿ„Ÿ 28
+    „¤„Ÿ„Ÿ 13
+        „¥„Ÿ„Ÿ 18
+        „¤„Ÿ„Ÿ 12
+            „¤„Ÿ„Ÿ 7
+Press any key to continue . . .

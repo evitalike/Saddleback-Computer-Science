@@ -1,0 +1,7 @@
+﻿  Auto.cpp
+  CS 1B Template.cpp
+c:\users\roverdog\source\repos\lesson 8\lesson 8\cs 1b template.cpp(9): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\roverdog\source\repos\lesson 8\lesson 8\cs 1b template.cpp(10): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+c:\users\roverdog\source\repos\lesson 8\lesson 8\cycle.h(4): warning C4067: unexpected tokens following preprocessor directive - expected a newline
+  Generating Code...
+  Lesson 8.vcxproj -> C:\Users\roverdog\source\repos\Lesson 8\Debug\Lesson 8.exe
